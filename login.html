@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Headings Example</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
+</head>
+<body>
+    <div class="login-info">
+        <form action="/submit" method="POST">
+            <fieldset>
+            <legend>Personalia:</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"  required ><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"  required ><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"  required ><br><br>
+
+            <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
+
+{% comment %} git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sathishkumar-290705/DailyRoutine.git
+git push -u origin main{% endcomment %} 
